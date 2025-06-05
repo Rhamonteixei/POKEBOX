@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     font-family:'Roboto', sans-serif;
 }
 
@@ -16,7 +17,7 @@ ol.pokemons{
     grid-template-columns: 1fr 1fr;
     list-style: none;
     padding: 0;
-    margin: 0;
+   
 }
 
 ol.pokemons li {
@@ -25,5 +26,15 @@ ol.pokemons li {
     background-color: #14A06F;
     color: #fff;
     border-radius: 1rem;
-    height: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.Bulfoto {
+
+    height: auto;
+    max-width: 100%;
+
 }
